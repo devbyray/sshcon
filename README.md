@@ -4,6 +4,10 @@
 
 `sshcon` is a small, local connection picker for OpenSSH. Save memorable names for your servers, choose one from an interactive list, or connect directly by name. `sshcon` passes the selected target to your installed `ssh` command; it does not implement SSH or manage credentials.
 
+## Demo
+
+![sshcon demo](sshcon.gif)
+
 ## Features
 
 - Keep a simple JSON connection library in `~/.sshcon`.
