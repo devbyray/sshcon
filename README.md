@@ -17,6 +17,10 @@
 - Let OpenSSH handle keys, passwords, agents, host verification, and `~/.ssh/config`.
 - Run locally without an account, cloud service, or `sshcon` server.
 
+## Privacy
+
+`sshcon` does not send your connection library, configuration, or usage data to any external service. Everything `sshcon` stores stays on your device in `~/.sshcon`. When you connect, `sshcon` starts your installed OpenSSH client, which connects directly to the server you selected.
+
 ## Requirements
 
 - OpenSSH's `ssh` command must be installed and available on your `PATH`.
